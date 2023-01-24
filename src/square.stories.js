@@ -1,4 +1,5 @@
 import { Square } from './index'
+import { action } from '@storybook/addon-actions'
 
 export default {
   component: Square
@@ -6,17 +7,20 @@ export default {
 
 export const Circle = {
   args: {
-    value: 'O'
+    value: 'O',
+    onClick: action('click')
   }
 }
 export const Cross = {
   args: {
-    value: 'X'
+    value: 'X',
+    onClick: action('click')
   }
 }
 
 export const Triangle = {
   args: {
-    value: '△'
+    value: '△',
+    onClick: action('click')
   }
 }
