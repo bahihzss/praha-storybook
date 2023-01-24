@@ -13,4 +13,5 @@
 
 ## Storybook クイズ
 * Storybook における CSF とは何を目的としたどんなモノでしょう？
-* 
+* .storybook ディレクトリにある main.js, preview.js はそれぞれどういった設定を記述するファイルでしょう？
+* Storybook における decorator とはどういうモノでしょう？
