@@ -204,7 +204,7 @@ exports[`Storyshots Game Basic 1`] = `
     className="game-info"
   >
     <div>
-      Next player: X
+      次のプレイヤー: X
     </div>
     <ol>
       <li>
