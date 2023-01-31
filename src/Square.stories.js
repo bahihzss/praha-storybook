@@ -1,4 +1,4 @@
-import { Square } from './index'
+import { Square } from './Square'
 import { action } from '@storybook/addon-actions'
 
 export default {
