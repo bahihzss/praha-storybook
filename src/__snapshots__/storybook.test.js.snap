@@ -7,40 +7,21 @@ exports[`Storyshots Board All Triangle 1`] = `
   >
     <button
       className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       △
     </button>
     <button
       className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       △
     </button>
     <button
       className="square"
-      onClick={[Function]}
-    >
-      △
-    </button>
-  </div>
-  <div
-    className="board-row"
-  >
-    <button
-      className="square"
-      onClick={[Function]}
-    >
-      △
-    </button>
-    <button
-      className="square"
-      onClick={[Function]}
-    >
-      △
-    </button>
-    <button
-      className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       △
@@ -51,18 +32,46 @@ exports[`Storyshots Board All Triangle 1`] = `
   >
     <button
       className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       △
     </button>
     <button
       className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       △
     </button>
     <button
       className="square"
+      data-testid="square"
+      onClick={[Function]}
+    >
+      △
+    </button>
+  </div>
+  <div
+    className="board-row"
+  >
+    <button
+      className="square"
+      data-testid="square"
+      onClick={[Function]}
+    >
+      △
+    </button>
+    <button
+      className="square"
+      data-testid="square"
+      onClick={[Function]}
+    >
+      △
+    </button>
+    <button
+      className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       △
@@ -78,18 +87,21 @@ exports[`Storyshots Board Basic 1`] = `
   >
     <button
       className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       X
     </button>
     <button
       className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       O
     </button>
     <button
       className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       X
@@ -100,18 +112,21 @@ exports[`Storyshots Board Basic 1`] = `
   >
     <button
       className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       O
     </button>
     <button
       className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       X
     </button>
     <button
       className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       O
@@ -122,18 +137,21 @@ exports[`Storyshots Board Basic 1`] = `
   >
     <button
       className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       X
     </button>
     <button
       className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       O
     </button>
     <button
       className="square"
+      data-testid="square"
       onClick={[Function]}
     >
       X
@@ -155,30 +173,17 @@ exports[`Storyshots Game Basic 1`] = `
       >
         <button
           className="square"
+          data-testid="square"
           onClick={[Function]}
         />
         <button
           className="square"
+          data-testid="square"
           onClick={[Function]}
         />
         <button
           className="square"
-          onClick={[Function]}
-        />
-      </div>
-      <div
-        className="board-row"
-      >
-        <button
-          className="square"
-          onClick={[Function]}
-        />
-        <button
-          className="square"
-          onClick={[Function]}
-        />
-        <button
-          className="square"
+          data-testid="square"
           onClick={[Function]}
         />
       </div>
@@ -187,14 +192,122 @@ exports[`Storyshots Game Basic 1`] = `
       >
         <button
           className="square"
+          data-testid="square"
           onClick={[Function]}
         />
         <button
           className="square"
+          data-testid="square"
           onClick={[Function]}
         />
         <button
           className="square"
+          data-testid="square"
+          onClick={[Function]}
+        />
+      </div>
+      <div
+        className="board-row"
+      >
+        <button
+          className="square"
+          data-testid="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          data-testid="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          data-testid="square"
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="game-info"
+  >
+    <div>
+      次のプレイヤー: X
+    </div>
+    <ol>
+      <li>
+        <button
+          onClick={[Function]}
+        >
+          Go to game start
+        </button>
+      </li>
+    </ol>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Game Draw 1`] = `
+<div
+  className="game"
+>
+  <div
+    className="game-board"
+  >
+    <div>
+      <div
+        className="board-row"
+      >
+        <button
+          className="square"
+          data-testid="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          data-testid="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          data-testid="square"
+          onClick={[Function]}
+        />
+      </div>
+      <div
+        className="board-row"
+      >
+        <button
+          className="square"
+          data-testid="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          data-testid="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          data-testid="square"
+          onClick={[Function]}
+        />
+      </div>
+      <div
+        className="board-row"
+      >
+        <button
+          className="square"
+          data-testid="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          data-testid="square"
+          onClick={[Function]}
+        />
+        <button
+          className="square"
+          data-testid="square"
           onClick={[Function]}
         />
       </div>
@@ -222,6 +335,7 @@ exports[`Storyshots Game Basic 1`] = `
 exports[`Storyshots Square Circle 1`] = `
 <button
   className="square"
+  data-testid="square"
   onClick={[Function]}
 >
   O
@@ -231,6 +345,7 @@ exports[`Storyshots Square Circle 1`] = `
 exports[`Storyshots Square Cross 1`] = `
 <button
   className="square"
+  data-testid="square"
   onClick={[Function]}
 >
   X
@@ -240,6 +355,7 @@ exports[`Storyshots Square Cross 1`] = `
 exports[`Storyshots Square Triangle 1`] = `
 <button
   className="square"
+  data-testid="square"
   onClick={[Function]}
 >
   △
