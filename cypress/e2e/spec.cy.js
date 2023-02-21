@@ -13,6 +13,18 @@ describe('template spec', () => {
     cy.contains('Winner: X')
   })
 
+  it('O が勝利する with Cypress Studio', () => {
+    cy.visit('http://localhost:3000')
+
+    cy.get('.game-board > :nth-child(1) > :nth-child(1) > :nth-child(1)').click();
+    cy.get('.game-board > :nth-child(1) > :nth-child(1) > :nth-child(2)').click();
+    cy.get(':nth-child(1) > :nth-child(2) > :nth-child(3)').click();
+    cy.get('.game-board > :nth-child(1) > :nth-child(2) > :nth-child(2)').click();
+    cy.get(':nth-child(1) > :nth-child(3) > :nth-child(1)').click();
+    cy.get(':nth-child(3) > :nth-child(2)').click();
+    cy.contains('Winner: O')
+  })
+
   it('引き分け', () => {
     cy.visit('http://localhost:3000')
 
